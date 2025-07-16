@@ -1,0 +1,35 @@
+String
+python中单引号'和双引号"使用完全相同，可以互相嵌套使用。
+使用三引号('''或""")可以指定一个多行字符串。
+字符串的截取使用[头下标:尾下标]，下标从0开始，可以省略头下标或尾下标。
+字符串的拼接使用+运算符。
+字符串的重复使用*运算符。
+字符串的成员资格测试使用in和not in运算符。
+字符串的长度使用len()函数。
+字符串的比较使用==、!=、<、<=、>、>=运算符。
+字符串的大小写转换使用lower()和upper()函数。
+字符串的格式化使用%运算符。
+字符串的切片操作可以指定步长，如[头下标:尾下标:步长]。
+字符串的编码转换使用encode()和decode()函数。
+字符串的分割操作使用split()函数。
+反斜杠可以用来转义特殊字符，如\n表示换行符。
+字符串的格式化语法：%[格式说明符]值，格式说明符包括：
+- s：字符串（字符串转换）
+- d：整数（十进制）
+- o：整数（八进制）
+- x：整数（十六进制）
+- e：浮点数（指数记法）
+- E：浮点数（科学记法）
+- f：浮点数（十进制）
+- g：浮点数（根据值的大小决定使用e或f）
+- c：单个字符（整数表示Unicode码点）
+- r：字符串（原始字符串，不转义）
+反斜杆可以用来转义。使用r前缀可以指定原始字符串，不进行转义。
+word[::-1]可以用来反转字符串。
+word='hello world'
+print(word[::-1]) #输出'dlrow olleh'
+sentence="""Python is a high-level programming language. 
+It is an interpreted language, which means that it is executed line by line. Python is dynamically typed, which means that the type of a variable is determined at runtime. Python is known for its easy-to-learn syntax, which makes it a popular choice for beginners and experts alike."""
+print(sentence)
+#输出：
+#Python is a high-level programming language. It is an interpreted language, which means that it is executed line by line. Python is dynamically typed, which means that the type of a variable is determined at runtime. Python is known for its easy-to-learn syntax, which makes it a popular choice for beginners and experts alike.
